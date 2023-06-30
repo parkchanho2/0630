@@ -7,7 +7,7 @@ import java.util.Calendar;
 public class ObjectTest08 {	
 	public static void main(String[] args) {
 		Calendar cal = Calendar.getInstance();
-		//칼렌더 추상클래스 new 로 객체 생성을 못한다.
+		//캘린더 추상클래스 new 로 객체 생성을 못한다.
 		
 		int year = cal.get(Calendar.YEAR); //년도
 		int month = cal.get(Calendar.MONTH) + 1; //월값, +1을 한 이뉴는 1월이 0으로 반환되기 때문
